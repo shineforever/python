@@ -3,10 +3,9 @@
 
 import platform
 
-
 def getHostInfo():
     """
-    获得系统的发行版本名称，版本，以及安装操作系统的32位或者64位；
+    获得系统的主机名，发行版本名称，版本；以及安装操作系统的32位或者64位；
     """
     pd = {}
     version = platform.dist()
